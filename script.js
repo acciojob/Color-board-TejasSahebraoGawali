@@ -28,7 +28,7 @@ function setColor(square) {
 
 function resetColor(square) {
 	setTimeout(()=>{
-	square.style.backgroundColor = "gray"
+	square.style.backgroundColor = "rgb(29, 29, 29)"
 }, 1000);
 }
 
