@@ -2,14 +2,14 @@
 const contianer = document.querySelector(".container");
 
 for(let i = 1; i <= 800; i++) {
-	let square = document.createElement("section");
+	const square = document.createElement("section");
 	square.classList.add("square");
 	
-	square.addEventListener("mouseenter", ()=>{
+	square.addEventListener("mouseover", ()=>{
 		setColor(square);
 	});
 
-	square.addEventListener("mouseleave", () => {
+	square.addEventListener("mouseout", () => {
     resetColor(square);
 	});
 	
